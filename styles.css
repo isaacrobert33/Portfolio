@@ -1,0 +1,172 @@
+*{
+    outline: none;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.header {
+    background-image: url("static/bg.jpg");
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 120%;
+}
+
+#header_body {
+    margin-left: 100px;
+}
+#header_body p {
+    word-spacing: 5px;
+    font-size: 20px;
+    text-indent: 5px;
+    text-align: left;
+    width: 45%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#menu {
+    float: left;
+}
+
+.social_icons {
+    position: absolute;
+    right: 80px;
+    top: 50px;
+}
+
+.fa {
+    padding: 8px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook-square {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+.fa-github-square {
+    background: transparent;
+    color: white;
+}
+.fa-linkedin-square {
+    background: transparent;
+    color: white;
+}
+.fa-twitter-square {
+    background: transparent;
+    color: white;
+}
+
+.social_icons2 {
+    position: absolute;
+    margin-top: 30px;
+}
+.fa-facebook {
+    background: rgb(59, 89, 153);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.hover_fb:hover {
+    margin-top: 10px;
+}
+
+.round-inst {
+    background: rgb(228, 64, 95);
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.fa-github {
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.fa-linkedin {
+    background: rgb(29, 161, 242);
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.fa-twitter {
+    background: rgb(29, 161, 242);
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+#resume {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    box-shadow: 1px 1px 3px black;
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+
+.skills {
+    color: black;
+    margin-top: 150px;
+}
+.skills h1 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 49, 64);
+}
+.skills h4 {
+    color: rgb(0, 179, 223);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#working {
+    width: 40%;
+    height: 50%;
+    float: left;
+    position: absolute;
+}
+
+.webdev {
+    display: inline-block;
+    right: 50px;
+    position: absolute;
+}
+#mob-dev {
+    width: 40%;
+    height: 50%;
+    float: left;
+    position: absolute;
+    margin-top: 400px;
+}
+.mobdev {
+    display: inline-block;
+    right: 50px;
+    margin-top: 400px;
+    position: absolute;
+}
+@font-face {
+    font-family: augustina;
+    src: url("fonts/Agustina.otf");
+}
