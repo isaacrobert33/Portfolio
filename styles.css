@@ -67,6 +67,10 @@ body {
     background: transparent;
     color: white;
 }
+.fa-google-square {
+    background: transparent;
+    color: white;
+}
 
 .social_icons2 {
     position: absolute;
@@ -78,9 +82,6 @@ body {
     border-radius: 50%;
     width: 20px;
     height: 20px;
-}
-.hover_fb:hover {
-    margin-top: 10px;
 }
 
 .round-inst {
