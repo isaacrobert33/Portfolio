@@ -18,18 +18,14 @@ function animate(id) {
     body.style.right = '50px';
 }
 
-
-// document.getElementById("webdev-main").addEventListener('wheel', function () {
-//     animate("webdev");
-// })
-// document.addEventListener('scroll', function () {
-//     let skills = ["webdev", "mobdev"];
-//     let el = document.getElementById(skills[0]+"-main");
-//     let vp = isInViewport(el);
-//     console.log(vp);
-//     if (vp==true) {
-//         // alert("animating...");
-//         animate(skills[0]);
-//     };
-//     // TCuyxuEoJzTsmojHP3dYw62fB3e6MrN55x
-// } )
+document.addEventListener(
+    'scroll', 
+    function() {
+        if (window.scrollY == 0) {
+            document.getElementsByClassName("top-bar")[0].style.display = "none";
+            return ;
+        }
+        document.getElementsByClassName("top-bar")[0].style.display = "block";
+        
+    }
+)

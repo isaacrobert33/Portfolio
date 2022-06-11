@@ -414,6 +414,7 @@ body {
     color: white;
     padding: 9px;
     text-decoration: none;
+    /* cursor: ; */
 }
 .proj-btn:hover {
     background-color: #157347;
@@ -429,6 +430,17 @@ body {
     height: 200px;
     float: right;
     margin-right: 100px;
+}
+.top-bar {
+    width: 100%;
+    margin: 0;
+    height: 60px;
+    background-color: #003140;
+    position: fixed;
+    padding: 10px;
+    z-index: 2;
+    display: none;
+    opacity: .9;
 }
 
 @font-face {
