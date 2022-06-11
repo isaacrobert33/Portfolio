@@ -443,6 +443,23 @@ body {
     display: none;
     opacity: .9;
 }
+#overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    overflow: hidden;
+    z-index: 4;
+    display: none;
+}
+#overlay #profile-img {
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 700px;
+    height: 700px;
+}
 
 @font-face {
     font-family: augustina;

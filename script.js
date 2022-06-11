@@ -18,6 +18,16 @@ function animate(id) {
     body.style.right = '50px';
 }
 
+function display_profile() {
+    let overlay = document.getElementById("overlay");
+    overlay.style.display = "block";
+}
+
+function hide_profile() {
+    let overlay = document.getElementById("overlay");
+    overlay.style.display = 'none';
+}
+
 document.addEventListener(
     'scroll', 
     function() {
