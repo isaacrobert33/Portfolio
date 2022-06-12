@@ -28,6 +28,15 @@ function hide_profile() {
     overlay.style.display = 'none';
 }
 
+function show_bar() {
+    let bar = document.getElementById("bar");
+    bar.style.display = "block";
+}
+function hide_bar() {
+    let bar = document.getElementById("bar");
+    bar.style.display = "none";
+}
+
 document.addEventListener(
     'scroll', 
     function() {
