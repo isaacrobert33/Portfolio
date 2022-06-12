@@ -17,6 +17,7 @@ body {
 
 #header_body {
     margin-left: 100px;
+    font-family: helvetica;
 }
 #header_body .name {
     font-family: augustina;
@@ -29,7 +30,7 @@ body {
     text-indent: 5px;
     text-align: left;
     width: 45%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: helvetica;
 }
 
 #menu {
